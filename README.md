@@ -1,4 +1,4 @@
-# 🌶️ Spice Image Classification Pipeline
+# 🌶️ Spice Image Classification Pipeline (Dataset from Indian biological image dataset(https://ibdc.dbtindia.gov.in/ibia/))
 
 Ai Assitant used : Claude Sonet
 IDE : Pycharm
@@ -429,10 +429,15 @@ If you use this pipeline in your research, please cite:
 
 ```bibtex
 @software{spice_classification_2024,
-  author = {Your Name},
+  author = {Ekansh Jadon},
   title = {Spice Image Classification Pipeline},
-  year = {2024},
-  url = {https://github.com/yourusername/spice-classification}
+  year = {2025},
+  url = {https://github.com/hsnakee/spice-classification}
+}
+@Dataset {Indian biological image dataset,
+  source = {https://ibdc.dbtindia.gov.in/ibia/},
+  year = {2025},
+  url = {https://ibdc.dbtindia.gov.in/ibia/}
 }
 ```
 
