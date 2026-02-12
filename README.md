@@ -1,9 +1,9 @@
 # 🌶️ Spice Image Classification Pipeline (Dataset from Indian biological image dataset(https://ibdc.dbtindia.gov.in/ibia/))
 
-Ai Assitant used : Claude Sonet
+Ai Assitant used : Claude Sonet |
 IDE : Pycharm
 
-A production-ready, deep learning pipeline for multi-class spice image classification using PyTorch and transfer learning.
+A first shot at making a production-ready, deep learning pipeline for multi-class spice image classification using PyTorch and transfer learning.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
@@ -52,7 +52,7 @@ A production-ready, deep learning pipeline for multi-class spice image classific
 - 📝 **TensorBoard Logging**: Real-time training monitoring
 - 🚀 **Batch Inference**: Predict on multiple images efficiently
 
-## 📁 Dataset Structure
+## 📁 Dataset Structure (To be downloaded from the source and used accordingly)
 
 The pipeline expects a folder-per-class structure:
 
