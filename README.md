@@ -1,4 +1,4 @@
-# 🌶️ Spice Image Classification Pipeline (Dataset from Indian biological image dataset(https://ibdc.dbtindia.gov.in/ibia/))
+#  Spice Image Classification Pipeline (Dataset from Indian biological image dataset(https://ibdc.dbtindia.gov.in/ibia/))
 
 Ai Assitant used : Claude Sonet |
 IDE : Pycharm
@@ -28,31 +28,31 @@ A first shot at making a production-ready, deep learning pipeline for multi-clas
 - [Citation](#citation)
 - [License](#license)
 
-## ✨ Features
+##  Features
 
 ### Core Features
-- ✅ **Transfer Learning**: Support for ResNet50, EfficientNet-B0/B3, ConvNeXt-Tiny
-- ✅ **Automatic Mixed Precision (AMP)**: Faster training with lower memory usage
-- ✅ **Data Augmentation**: Comprehensive augmentation pipeline
-- ✅ **Class Imbalance Handling**: Weighted loss for imbalanced datasets
-- ✅ **Early Stopping**: Prevents overfitting with configurable patience
-- ✅ **Learning Rate Scheduling**: Multiple scheduler options
-- ✅ **Reproducible Results**: Fixed seeds for deterministic training
+-  **Transfer Learning**: Support for ResNet50, EfficientNet-B0/B3, ConvNeXt-Tiny
+-  **Automatic Mixed Precision (AMP)**: Faster training with lower memory usage
+-  **Data Augmentation**: Comprehensive augmentation pipeline
+-  **Class Imbalance Handling**: Weighted loss for imbalanced datasets
+-  **Early Stopping**: Prevents overfitting with configurable patience
+-  **Learning Rate Scheduling**: Multiple scheduler options
+-  **Reproducible Results**: Fixed seeds for deterministic training
 
 ### Evaluation & Visualization
-- 📊 **Comprehensive Metrics**: Accuracy, Precision, Recall, F1, ROC-AUC
-- 📈 **Training Curves**: Loss and accuracy plots
-- 🔥 **Confusion Matrix**: Detailed per-class performance
-- 📉 **ROC Curves**: Multi-class ROC analysis
-- 🎨 **Class Distribution**: Visual analysis of dataset balance
+-  **Comprehensive Metrics**: Accuracy, Precision, Recall, F1, ROC-AUC
+-  **Training Curves**: Loss and accuracy plots
+-  **Confusion Matrix**: Detailed per-class performance
+-  **ROC Curves**: Multi-class ROC analysis
+-  **Class Distribution**: Visual analysis of dataset balance
 
 ### Bonus Features
-- 🔍 **Grad-CAM Visualization**: See what the model focuses on
-- 🎯 **Misclassified Samples**: Identify and visualize errors
-- 📝 **TensorBoard Logging**: Real-time training monitoring
-- 🚀 **Batch Inference**: Predict on multiple images efficiently
+-  **Grad-CAM Visualization**: See what the model focuses on
+-  **Misclassified Samples**: Identify and visualize errors
+-  **TensorBoard Logging**: Real-time training monitoring
+-  **Batch Inference**: Predict on multiple images efficiently
 
-## 📁 Dataset Structure (To be downloaded from the source and used accordingly)
+##  Dataset Structure (To be downloaded from the source and used accordingly)
 
 The pipeline expects a folder-per-class structure:
 
@@ -73,7 +73,7 @@ dataset_root/
 
 **Supported formats**: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA Available: {torch.cuda.is_available()}')"
 ```
 
-## 🎯 Quick Start
+##  Quick Start
 
 ### Training (5 minutes setup)
 ```bash
@@ -124,7 +124,7 @@ python predict.py \
     --visualize
 ```
 
-## 📖 Usage
+##  Usage
 
 ### Training
 
@@ -225,7 +225,7 @@ results = predictor.predict_folder('test_images/', top_k=5)
 predictor.visualize_prediction('spice.jpg', 'output.png')
 ```
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### Supported Models
 
@@ -241,7 +241,7 @@ predictor.visualize_prediction('spice.jpg', 'output.png')
 2. **Phase 2**: Unfreeze backbone, fine-tune all layers (remaining epochs)
 3. **Learning Rate**: Reduced by 10× when unfreezing backbone
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Key Configuration Options
 
@@ -277,7 +277,7 @@ AUGMENTATION = {
 }
 ```
 
-## 📤 Output Artifacts
+##  Output Artifacts
 
 After training, the following files are generated in the output directory:
 
@@ -300,7 +300,7 @@ outputs/
 └── gradcam_comparison.png       # Grad-CAM visualizations
 ```
 
-## 📊 Results
+##  Results
 
 ### Expected Performance
 On the 19-class spice dataset with proper training:
@@ -324,7 +324,7 @@ F1 Score (macro):   0.9168
 =================================================================
 ```
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 spice-classification/
@@ -346,7 +346,7 @@ spice-classification/
 └── LICENSE                # License file
 ```
 
-## 🎨 Advanced Features
+##  Advanced Features
 
 ### Grad-CAM Visualization
 
@@ -392,7 +392,7 @@ tensorboard --logdir outputs/tensorboard_logs
 # Open browser to http://localhost:6006
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -423,7 +423,7 @@ Config.USE_MIXED_PRECISION = True
 Config.NUM_WORKERS = 4  # adjust based on CPU cores
 ```
 
-## 📝 Citation
+##  Citation
 
 If you use this pipeline in your research, please cite:
 
@@ -441,13 +441,13 @@ If you use this pipeline in your research, please cite:
 }
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
-## 📧 Contact
+##  Contact
 
 For questions or support, please open an issue on GitHub.
 
