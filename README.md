@@ -445,9 +445,7 @@ If you use this pipeline in your research, please cite:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
@@ -455,4 +453,4 @@ For questions or support, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for the Computer Vision Community**
+**Help it improve as well**
