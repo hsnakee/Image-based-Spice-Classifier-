@@ -1,5 +1,8 @@
 # 🌶️ Spice Image Classification Pipeline
 
+Ai Assitant used : Claude Sonet
+IDE : Pycharm
+
 A production-ready, deep learning pipeline for multi-class spice image classification using PyTorch and transfer learning.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
