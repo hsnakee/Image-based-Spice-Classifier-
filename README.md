@@ -1,6 +1,6 @@
 #  Spice Image Classification Pipeline (Dataset from Indian biological image dataset(https://ibdc.dbtindia.gov.in/ibia/))
 
-Ai Assitant used : Claude Sonet |
+Ai Assitant used : Claude Sonnet |
 IDE : Pycharm
 
 A first shot at making a production-ready, deep learning pipeline for multi-class spice image classification using PyTorch and transfer learning.
